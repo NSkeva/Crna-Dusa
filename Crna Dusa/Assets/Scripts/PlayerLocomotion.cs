@@ -7,6 +7,7 @@ namespace crna
 {
     public class PlayerLocomotion : MonoBehaviour
     {
+        PlayerManager playerManager;
         Transform cameraObject;
         InputHandler inputHandler;
         Vector3 moveDirection;
@@ -19,7 +20,7 @@ namespace crna
         public new Rigidbody rigidbody;
         public GameObject normalCamera;
 
-        [Header("Stats")]
+        [Header("Movement Stats")]
         [SerializeField]
         float movementSpeed = 5;
         [SerializeField]
@@ -27,9 +28,10 @@ namespace crna
         [SerializeField]
         float sprintSpeed = 7;
 
-        public bool isSprinting;
+        
         void Start()
         {
+            playerManager = GetComponent<PlayerManager>();
             rigidbody = GetComponent<Rigidbody>();
             inputHandler = GetComponent<InputHandler>();
             animtorHandler = GetComponentInChildren<AnimatorHandler>();
@@ -39,14 +41,6 @@ namespace crna
 
         }
 
-        public void Update()
-        {
-            float delta = Time.deltaTime;
-            isSprinting = inputHandler.b_input;
-            inputHandler.TickInput(delta);
-            HandleMovement(delta);
-            HandleRollingAndSprinting(delta);
-        }
 
         #region Movement
         Vector3 normalVector;
@@ -93,7 +87,7 @@ namespace crna
             if (inputHandler.sprintFlag)
             {
                 speed = sprintSpeed;
-                isSprinting = true;
+                playerManager.isSprinting = true;
                 moveDirection *= speed;
             }
             else
@@ -104,7 +98,7 @@ namespace crna
             Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
             rigidbody.velocity = projectedVelocity;
 
-            animtorHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0, isSprinting);
+            animtorHandler.UpdateAnimatorValues(inputHandler.moveAmount, 0, playerManager.isSprinting);
 
             if (animtorHandler.canRotate)
             {
