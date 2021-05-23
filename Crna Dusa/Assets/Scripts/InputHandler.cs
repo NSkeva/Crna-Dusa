@@ -13,8 +13,10 @@ namespace crna
         public float mouseY;
 
         public bool b_input;
+        public bool sprintFlag;
         public bool rollFlag;
         public bool isInteracting;
+        public float rollInputTimer;
 
         PlayerControls inputActions;
         CameraHandler cameraHandler;
@@ -76,11 +78,19 @@ namespace crna
 
             if (b_input)
             {
-                rollFlag = true;
+                rollInputTimer += delta;
+                sprintFlag = true;
+                //rollFlag = true;
             }
             else
             {
-                rollFlag = false;
+                //rollFlag = false;
+                if(rollInputTimer>0 && rollInputTimer < 0.5f)
+                {
+                    sprintFlag = false;
+                    rollFlag = true;
+                }
+                rollInputTimer = 0;
             }
 
         }
