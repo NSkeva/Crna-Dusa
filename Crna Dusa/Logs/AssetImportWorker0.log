@@ -15,11 +15,19 @@ C:/Users/leokl/source/repos/Mlinar/Crna-Dusa/Crna Dusa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 58029
 Successfully changed project path to: C:/Users/leokl/source/repos/Mlinar/Crna-Dusa/Crna Dusa
 C:/Users/leokl/source/repos/Mlinar/Crna-Dusa/Crna Dusa
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 25.70 ms, found 0 plugins.
+=======
+63398
+Successfully changed project path to: C:/Users/Nikola/Documents/GitHub/Crna-Dusa/Crna Dusa
+C:/Users/Nikola/Documents/GitHub/Crna-Dusa/Crna Dusa
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.84 ms, found 0 plugins.
+>>>>>>> parent of 97277d6 (Kamera)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -42,11 +51,21 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/E
 Registered in 0.001716 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 25.98 ms, found 0 plugins.
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001655 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.55 ms, found 0 plugins.
+>>>>>>> parent of 97277d6 (Kamera)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  1.011 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -54,23 +73,42 @@ Registered in 0.000512 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 25.63 ms, found 0 plugins.
+=======
+- Completed reload, in  1.667 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.58 ms, found 0 plugins.
+>>>>>>> parent of 97277d6 (Kamera)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.786 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+=======
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+>>>>>>> parent of 97277d6 (Kamera)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1417 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.6 MB.
 System memory in use after: 67.6 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1860.
+<<<<<<< HEAD
 Total: 1.793900 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.051600 ms MarkObjects: 1.493900 ms  DeleteObjects: 0.065700 ms)
 
 ========================================================================
@@ -95,27 +133,72 @@ Received Import Request.
   artifactKey: Guid(7d9bba7c82341c74caf6f708822da551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Humanoid.controller using Guid(7d9bba7c82341c74caf6f708822da551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b651a1cc97b76157394733e9b7b95ed') in 0.024208 seconds
   Import took 0.026927 seconds .
+=======
+Total: 3.204000 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.046200 ms MarkObjects: 2.733700 ms  DeleteObjects: 0.120500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Humanoid.controller
+  artifactKey: Guid(7d9bba7c82341c74caf6f708822da551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humanoid.controller using Guid(7d9bba7c82341c74caf6f708822da551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830026b58c688594870c673834bbb057') in 0.057178 seconds
+  Import took 0.060307 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000700 seconds.
+Registered in 0.000685 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  0.803 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.6 MB.
 System memory in use after: 67.7 MB.
 
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 2.009000 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.643300 ms  DeleteObjects: 0.062100 ms)
+>>>>>>> parent of 97277d6 (Kamera)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.000700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+=======
+Registered in 0.000832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+>>>>>>> parent of 97277d6 (Kamera)
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
+- Completed reload, in  0.782 seconds
+=======
+- Completed reload, in  0.709 seconds
+>>>>>>> parent of 97277d6 (Kamera)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+<<<<<<< HEAD
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1863.
 Total: 2.116500 ms (FindLiveObjects: 0.185400 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.843200 ms  DeleteObjects: 0.055500 ms)
 
@@ -198,27 +281,59 @@ Received Import Request.
   artifactKey: Guid(34fb8d63e271bf149b3df9e5007a6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/Run.anim using Guid(34fb8d63e271bf149b3df9e5007a6365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0647c18729f727edbc6c87fd4263762b') in 0.008592 seconds
   Import took 0.011085 seconds .
+=======
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1866.
+Total: 1.908600 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.566500 ms  DeleteObjects: 0.070300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.758093 seconds.
+  path: Assets/Scripts/PlayerLocomotion.cs
+  artifactKey: Guid(e53f631f8cde79f47b1356e54be099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerLocomotion.cs using Guid(e53f631f8cde79f47b1356e54be099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242207731940d2e174858d6b849bee8b') in 0.010884 seconds
+  Import took 0.013263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015083 seconds.
+  path: Assets/Scripts/PlayerLocomotion.cs
+  artifactKey: Guid(e53f631f8cde79f47b1356e54be099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerLocomotion.cs using Guid(e53f631f8cde79f47b1356e54be099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242207731940d2e174858d6b849bee8b') in 0.002347 seconds
+  Import took 0.004551 seconds .
+>>>>>>> parent of 97277d6 (Kamera)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.000484 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+=======
+Registered in 0.000795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+>>>>>>> parent of 97277d6 (Kamera)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.683 seconds
+=======
+- Completed reload, in  0.866 seconds
+>>>>>>> parent of 97277d6 (Kamera)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.7 MB.
 System memory in use after: 84.8 MB.
 
+<<<<<<< HEAD
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1910.
 Total: 2.097400 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.832700 ms  DeleteObjects: 0.056600 ms)
 
@@ -789,4 +904,16 @@ Received Import Request.
   artifactKey: Guid(211eaedaa047c9f45b0a76a1318e6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/Player.controller using Guid(211eaedaa047c9f45b0a76a1318e6924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3819c210384bf3079bdaea6133430c8') in 0.009259 seconds
   Import took 0.011792 seconds .
+=======
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1869.
+Total: 2.240200 ms (FindLiveObjects: 0.230700 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.915000 ms  DeleteObjects: 0.059800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.201448 seconds.
+  path: Assets/Scripts/PlayerLocomotion.cs
+  artifactKey: Guid(e53f631f8cde79f47b1356e54be099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerLocomotion.cs using Guid(e53f631f8cde79f47b1356e54be099da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a2896461dee712be98752a87d02321') in 0.004710 seconds
+  Import took 0.006841 seconds .
+>>>>>>> parent of 97277d6 (Kamera)
 
