@@ -510,3 +510,248 @@ System memory in use after: 85.0 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1936.
 Total: 2.931700 ms (FindLiveObjects: 0.459200 ms CreateObjectMapping: 0.102200 ms MarkObjects: 2.301600 ms  DeleteObjects: 0.065800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 285.826436 seconds.
+  path: Assets/ExplosiveLLC
+  artifactKey: Guid(e29f4ae6be875a848b9e3830b9a221e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC using Guid(e29f4ae6be875a848b9e3830b9a221e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865e75b7e73ac5728f3f84fb08bf697e') in 0.008461 seconds
+  Import took 0.011170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.740481 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE
+  artifactKey: Guid(da5ee7872682b864eb7894aa44ba7e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE using Guid(da5ee7872682b864eb7894aa44ba7e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3f95ae08ef0f331a9f99cf19395b1b') in 0.006048 seconds
+  Import took 0.008738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849581 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack
+  artifactKey: Guid(525836e2361202a46ae84bd5069c55f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack using Guid(525836e2361202a46ae84bd5069c55f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf1640b780f0dd9a001c577ad62bb2f') in 0.006198 seconds
+  Import took 0.008596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.675090 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations
+  artifactKey: Guid(51cf51979b4cd6d4bba74fc1dc1e6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations using Guid(51cf51979b4cd6d4bba74fc1dc1e6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22f522562d145a24bd2adc4036fca41') in 0.006088 seconds
+  Import took 0.008535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044904 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations/Brute@Fall.FBX
+  artifactKey: Guid(6d3fdfaf6fb0b744abb6dfc9fb1bb766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations/Brute@Fall.FBX using Guid(6d3fdfaf6fb0b744abb6dfc9fb1bb766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee500d5775dd56cbe77597163151b19') in 0.024081 seconds
+  Import took 0.027000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.171969 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack
+  artifactKey: Guid(ba60e25f859cdbe4da998a47f203e289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack using Guid(ba60e25f859cdbe4da998a47f203e289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374a8bae3186452f87f73b1e60571dae') in 0.006370 seconds
+  Import took 0.008851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.870161 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations
+  artifactKey: Guid(fbd521d5912a5f54494450f3d40f0237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations using Guid(fbd521d5912a5f54494450f3d40f0237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67e3656950c78d7b73dc6b20dbd46b6') in 0.002178 seconds
+  Import took 0.004508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058517 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Fall.FBX
+  artifactKey: Guid(21488cec29481c642a580304b695b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Fall.FBX using Guid(21488cec29481c642a580304b695b51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c010e58f8f0961cebb259e1e7f77d513') in 0.008817 seconds
+  Import took 0.011527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.608830 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack
+  artifactKey: Guid(f623cb5bbada5544392f356c748984ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack using Guid(f623cb5bbada5544392f356c748984ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33babbc10f83f7a776d8222e4dd9a2be') in 0.006482 seconds
+  Import took 0.009031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.650374 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations
+  artifactKey: Guid(0fda21245846ea14fba4a6dfdb1182e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations using Guid(0fda21245846ea14fba4a6dfdb1182e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb0b9990baaa9dd0290b591531385c9') in 0.002078 seconds
+  Import took 0.004403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077253 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Fall.FBX
+  artifactKey: Guid(270e1a5a1c864ad41a8f1975302250e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Fall.FBX using Guid(270e1a5a1c864ad41a8f1975302250e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cb9c6debbdad817b45dcc913dce6d8') in 0.008415 seconds
+  Import took 0.011056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.208152 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack
+  artifactKey: Guid(781aad2d630bb6a468a68331009360c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack using Guid(781aad2d630bb6a468a68331009360c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb492e87a4fa9b85ed40fa97b9a572a2') in 0.006568 seconds
+  Import took 0.009417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657547 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations
+  artifactKey: Guid(695e006a106786743addd1fcff461f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations using Guid(695e006a106786743addd1fcff461f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83a95845fd63900c8cfe776fc302dba') in 0.001911 seconds
+  Import took 0.004012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071752 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Fall.FBX
+  artifactKey: Guid(3e67e6dd462ede546be1899f12e7ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Fall.FBX using Guid(3e67e6dd462ede546be1899f12e7ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121d655c0f1f8fe4c62dfccbdeafbf56') in 0.009111 seconds
+  Import took 0.011665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.742942 seconds.
+  path: Assets/Imported Animations/Falling.FBX
+  artifactKey: Guid(3e67e6dd462ede546be1899f12e7ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Animations/Falling.FBX using Guid(3e67e6dd462ede546be1899f12e7ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0080563aa63a64b19b9c5c7c6695d101') in 0.009141 seconds
+  Import took 0.011932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013242 seconds.
+  path: Assets/Imported Animations/Falling.FBX
+  artifactKey: Guid(3e67e6dd462ede546be1899f12e7ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Animations/Falling.FBX using Guid(3e67e6dd462ede546be1899f12e7ed84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0080563aa63a64b19b9c5c7c6695d101') in 0.005721 seconds
+  Import took 0.008273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.435095 seconds.
+  path: Assets/Imported Animations/Dodge Back.FBX
+  artifactKey: Guid(eda2313558ba79a47baf01ed6d84e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Animations/Dodge Back.FBX using Guid(eda2313558ba79a47baf01ed6d84e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49f61b080b9b7df081178859ac49311') in 0.008505 seconds
+  Import took 0.011235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013992 seconds.
+  path: Assets/Imported Animations/Dodge Back.FBX
+  artifactKey: Guid(eda2313558ba79a47baf01ed6d84e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Animations/Dodge Back.FBX using Guid(eda2313558ba79a47baf01ed6d84e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49f61b080b9b7df081178859ac49311') in 0.005768 seconds
+  Import took 0.008341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.492854 seconds.
+  path: Assets/Imported Animations/Roll Forward.FBX
+  artifactKey: Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Animations/Roll Forward.FBX using Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6f1f64450e94c796615b78986d9757') in 0.008746 seconds
+  Import took 0.011289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012263 seconds.
+  path: Assets/Imported Animations/Roll Forward.FBX
+  artifactKey: Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Animations/Roll Forward.FBX using Guid(d05e1e87bea596f49b01fedb8c7da04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6f1f64450e94c796615b78986d9757') in 0.005057 seconds
+  Import took 0.007570 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.751 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1440 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 1.763900 ms (FindLiveObjects: 0.202200 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.484200 ms  DeleteObjects: 0.042300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000696 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1413 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 1.876800 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.521900 ms  DeleteObjects: 0.085900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 457.119494 seconds.
+  path: Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Jump.FBX
+  artifactKey: Guid(0a6319fac181edb4d82470f123332490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Jump.FBX using Guid(0a6319fac181edb4d82470f123332490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816cba58f25f814fc30e1725aa60a767') in 0.027645 seconds
+  Import took 0.030525 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.691 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1413 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 1.973700 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.031500 ms MarkObjects: 1.726000 ms  DeleteObjects: 0.047900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.206823 seconds.
+  path: Assets/Imported Animations/Jump and Land (unutra oboje).FBX
+  artifactKey: Guid(0a6319fac181edb4d82470f123332490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Animations/Jump and Land (unutra oboje).FBX using Guid(0a6319fac181edb4d82470f123332490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88823c200c2acf32c982a6c46aedf4b') in 0.027239 seconds
+  Import took 0.029959 seconds .
+
