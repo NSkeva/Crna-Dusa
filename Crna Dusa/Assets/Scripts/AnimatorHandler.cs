@@ -31,11 +31,11 @@ namespace crna
 
             float v = 0;
 
-            if(verticalMovement > 0 && verticalMovement < 0.55f)
+            if (verticalMovement > 0 && verticalMovement < 0.55f)
             {
                 v = 0.5f;
             }
-            else if ( verticalMovement > 0.55f)
+            else if (verticalMovement > 0.55f)
             {
                 v = 1;
             }
@@ -58,15 +58,15 @@ namespace crna
 
             float h = 0;
 
-            if(horizontalMovement > 0 && horizontalMovement < 0.55f)
+            if (horizontalMovement > 0 && horizontalMovement < 0.55f)
             {
                 h = 0.5f;
             }
-            else if(horizontalMovement > 0.55f)
+            else if (horizontalMovement > 0.55f)
             {
                 h = 1;
             }
-            else if ( horizontalMovement < 0 && horizontalMovement > -0.55f)
+            else if (horizontalMovement < 0 && horizontalMovement > -0.55f)
             {
                 h = -0.5f;
             }
@@ -81,7 +81,7 @@ namespace crna
 
             #endregion
 
-            if (isSprinting)
+            if (isSprinting && verticalMovement > 0)
             {
                 v = 2;
                 h = horizontalMovement;
