@@ -11,6 +11,7 @@ namespace crna
         Animator anim;
         CameraHandler cameraHandler;
         PlayerLocomotion playerLocomotion;
+        PlayerAttacker playerAttacker;
 
         public bool isInteracting;
 
@@ -21,6 +22,7 @@ namespace crna
         private void Awake()
         {
             cameraHandler = CameraHandler.singleton;
+            playerAttacker = GetComponent<PlayerAttacker>();
         }
 
         void Start()
@@ -63,8 +65,10 @@ namespace crna
         {
             inputHandler.rollFlag = false;
             inputHandler.sprintFlag = false;
-            isSprinting = inputHandler.b_input;
+            inputHandler.rb_Input = false;
+            inputHandler.rt_Input = false;
         }
+
     }
 
 }

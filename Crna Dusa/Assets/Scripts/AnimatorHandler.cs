@@ -86,6 +86,10 @@ namespace crna
                 v = 2;
                 h = horizontalMovement;
             }
+            else
+            {
+                isSprinting = false;
+            }
 
             anim.SetFloat(vertical, v, 0.1f, Time.deltaTime);
             anim.SetFloat(horizontal, h, 0.1f, Time.deltaTime);
