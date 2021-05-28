@@ -48,6 +48,7 @@ namespace crna
             HandleCameraCollisions(delta);
         }
 
+
         public void HandleCameraRotation(float delta, float mouseXInput, float mouseYInput)
         {
             lookAngle += (mouseXInput * lookSpeed) / delta;
