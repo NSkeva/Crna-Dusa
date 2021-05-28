@@ -19,6 +19,7 @@ namespace crna
         public bool isSprinting;
         public bool isInAir;
         public bool isGrounded;
+        public bool canDoCombo;
         private void Awake()
         {
             cameraHandler = CameraHandler.singleton;
@@ -38,7 +39,7 @@ namespace crna
         void Update()
         {
             float delta = Time.deltaTime;
-
+            canDoCombo = anim.GetBool("canDoCombo");
             isInteracting = anim.GetBool("isInteracting");
             
 

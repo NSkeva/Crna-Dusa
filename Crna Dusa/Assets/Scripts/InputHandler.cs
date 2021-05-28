@@ -16,6 +16,7 @@ namespace crna
 
         public bool b_input;
         public bool sprintFlag;
+        public bool comboFlag;
         public bool rollFlag;
 
         public bool rb_Input;
@@ -26,7 +27,7 @@ namespace crna
         PlayerControls inputActions;
         PlayerAttacker playerAttacker;
         PlayerInventory playerInventory;
-
+        PlayerManager playerManager;
 
         Vector2 movementInput;
         Vector2 cameraInput;
@@ -35,6 +36,7 @@ namespace crna
         {
             playerAttacker = GetComponent<PlayerAttacker>();
             playerInventory = GetComponent<PlayerInventory>();
+            playerManager = GetComponent<PlayerManager>();
         }
 
         public void OnEnable()
@@ -99,6 +101,24 @@ namespace crna
 
             if (rb_Input)
             {
+                if (playerManager.canDoCombo)
+                {
+                    comboFlag = true;
+                    playerAttacker.HandleWeaponCombo(playerInventory.rightWeapon);
+                    comboFlag = false;
+                }
+                else
+                {
+                    if (playerManager.isInteracting)
+                    {
+                        return;
+                    }
+                    if (playerManager.canDoCombo)
+                    {
+                        return;
+                    }
+                    playerAttacker.HandleLightAttack(playerInventory.rightWeapon);
+                }
                 playerAttacker.HandleLightAttack(playerInventory.rightWeapon);
             }
 
