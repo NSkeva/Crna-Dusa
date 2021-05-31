@@ -31,12 +31,17 @@ public class EnemyStats : MonoBehaviour
     {
         currentHealth -= damage;
 
-        animator.Play("Damage_01");
-
         if (currentHealth <= 0)
+        {            
+            if (currentHealth > -100)
+            {
+                animator.Play("Death_01");
+            }
+            currentHealth = -100;
+        }
+        if (currentHealth > -100)
         {
-            currentHealth = 0;
-            animator.Play("Death_01");
+            animator.Play("Damage_01");
         }
     }
 }

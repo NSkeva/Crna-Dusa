@@ -10,6 +10,9 @@ namespace SG
         public GameObject modelPrefab;
         public bool isUnarmed;
 
+        public string right_hand_idle;
+        public string left_hand_idle;
+
         [Header("One Handed Attack Animations")]
         public string OH_Light_Attack_1;
         public string OH_Heavy_Attack_1;
