@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d79acfdc1c4d724892e11bd48ea6b0f, type: 3}
   m_Name: Nigger Sword
   m_EditorClassIdentifier: 
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: c15521e8dd834fb47b386f5e0a525655, type: 3}
   itemName: Icy Sword
   modelPrefab: {fileID: 1777591198242490, guid: 3329101817c67e24fb70ba97b6168054, type: 3}
   isUnarmed: 0
