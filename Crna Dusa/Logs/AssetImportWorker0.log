@@ -15,11 +15,11 @@ C:/Users/franc/Documents/GitHub/Crna-Dusa/Crna Dusa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53578
+50674
 Successfully changed project path to: C:/Users/franc/Documents/GitHub/Crna-Dusa/Crna Dusa
 C:/Users/franc/Documents/GitHub/Crna-Dusa/Crna Dusa
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path D:/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1524 +35,864 @@ Initialize mono
 Mono path[0] = 'D:/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001383 seconds.
+Registered in 0.001477 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.532 seconds
+- Completed reload, in  2.727 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001156 seconds.
+Registered in 0.000871 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C2378A40 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001ECF76A4A50 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C73D4010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ECF1AF3830 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2789020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF74B6070 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C25AD4B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF628B030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2A56030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ECF63C6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C25AD4B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF791C420 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2E59010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF6155660 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C695E430 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF628B030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2A83A40 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ECF1B40B60 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2789020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF1EC1E20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C5FC0080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ECF21C2010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2923030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF74B6070 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C748A060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF6386A30 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
+- Completed reload, in  1.325 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1431 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.1 MB.
 System memory in use after: 68.1 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 2.141000 ms (FindLiveObjects: 0.219600 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.789600 ms  DeleteObjects: 0.094100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1875.
+Total: 2.988200 ms (FindLiveObjects: 0.311500 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.493400 ms  DeleteObjects: 0.127300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/MagicSword.fbx
-  artifactKey: Guid(c8934126fd9131249a579eeadd5f60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MagicSword.fbx using Guid(c8934126fd9131249a579eeadd5f60a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42c4b174a2a8131237dce1d1d63205c') in 0.239773 seconds
-  Import took 0.242496 seconds .
+  path: Assets/Scripts/WeaponItem.cs
+  artifactKey: Guid(9d79acfdc1c4d724892e11bd48ea6b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponItem.cs using Guid(9d79acfdc1c4d724892e11bd48ea6b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ecc1c9c2e1a56f0affdfd9cdb4cb00') in 0.092215 seconds
+  Import took 0.094811 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/PlayerControls.inputactions
-  artifactKey: Guid(29a7f020f589b2a47b43ff0f28d33bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerControls.inputactions using Guid(29a7f020f589b2a47b43ff0f28d33bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647c1aff96da12df73b33bbaa111768f') in 0.022303 seconds
-  Import took 0.024864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007423 seconds.
-  path: Assets/PlayerControls.inputactions
-  artifactKey: Guid(29a7f020f589b2a47b43ff0f28d33bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerControls.inputactions using Guid(29a7f020f589b2a47b43ff0f28d33bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647c1aff96da12df73b33bbaa111768f') in 0.004572 seconds
-  Import took 0.007764 seconds .
+  Time since last request: 245.146469 seconds.
+  path: Assets/Scripts/WeaponItem.cs
+  artifactKey: Guid(9d79acfdc1c4d724892e11bd48ea6b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponItem.cs using Guid(9d79acfdc1c4d724892e11bd48ea6b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01e863f999044db22e56099dab69e9b') in 0.002766 seconds
+  Import took 0.005388 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000749 seconds.
+Registered in 0.000861 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C60C0620 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001EB2939B610 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C24EC040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ECF782F010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C279D420 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF76A1020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C28B4E50 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF8FB8050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C629E020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ECF6516020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF83661E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C631C030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF78FD010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C82F9010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF1B0A280 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C266DA10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ECF83661E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269D9392E30 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF7519A40 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C5FC0080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ECF82A8020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2A4F3C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF6143020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C24FC490 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.809 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1887.
-Total: 1.873300 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.553900 ms  DeleteObjects: 0.056000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000862 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C28AF170 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C66D0010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269D9392AB0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9873360 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C26E2650 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2D6E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2D6E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C266DA10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269D9392AB0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C5FC0080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269D9392AB0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9AF7020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF1BECE60 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.4 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 1.857700 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.549500 ms  DeleteObjects: 0.060500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000801 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C905D970 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C614A010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C25C3ED0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6DB0F30 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6550010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6CE5010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C650C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9420F90 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C266DA10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2BA41B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6DF3010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269D9392AB0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C81CB020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1893.
-Total: 2.068100 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.776400 ms  DeleteObjects: 0.064500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000940 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C8302E40 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6205020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9365220 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C28B4E50 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6A20F80 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6205020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6CF4C60 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2D6E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9880B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9424FA0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA2B010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2979010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA406010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.839 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1424 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 1.871800 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.611500 ms  DeleteObjects: 0.058300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1776.866152 seconds.
-  path: Assets/Data
-  artifactKey: Guid(87e720c2cdba3dd45a9c85a525b84ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data using Guid(87e720c2cdba3dd45a9c85a525b84ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e5f3e5d60e38ef8a4be1074a32f803') in 0.011211 seconds
-  Import took 0.013689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.283816 seconds.
-  path: Assets/Data/PlayerUI.prefab
-  artifactKey: Guid(a14c55ccee5ef254e8fe7acde4a34ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/PlayerUI.prefab using Guid(a14c55ccee5ef254e8fe7acde4a34ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6982120769a43b5bb49ab7664b142258') in 0.042886 seconds
-  Import took 0.045435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002885 seconds.
-  path: Assets/Data/PlayerUI.prefab
-  artifactKey: Guid(a14c55ccee5ef254e8fe7acde4a34ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Data/PlayerUI.prefab using Guid(a14c55ccee5ef254e8fe7acde4a34ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6982120769a43b5bb49ab7664b142258') in 0.004507 seconds
-  Import took 0.006745 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000822 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C8067040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C614A010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C25C3ED0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C949BF90 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7F8C010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2D6E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6CF4C60 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C82F9010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C942D830 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7939020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA2B010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6E51020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C927B0F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.871 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.6 MB.
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1900.
-Total: 2.019000 ms (FindLiveObjects: 0.238400 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.686400 ms  DeleteObjects: 0.056800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001403 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C7552010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C614A010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7DC5BF0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C928B100 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9E9100 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9A83020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C8F18060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7939020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADD50A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6E51020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7AC8030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.876 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1903.
-Total: 2.619400 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.045600 ms MarkObjects: 2.261600 ms  DeleteObjects: 0.082000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1878.
+Total: 2.145200 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.804300 ms  DeleteObjects: 0.059400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 432.755154 seconds.
-  path: Assets/QuickSlotsUI.cs
-  artifactKey: Guid(c538ba834bb50224eaca1c29480f4914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSlotsUI.cs using Guid(c538ba834bb50224eaca1c29480f4914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91384bd04ff8407d0011d66df5a8f2a3') in 0.015520 seconds
-  Import took 0.017969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014093 seconds.
-  path: Assets/QuickSlotsUI.cs
-  artifactKey: Guid(c538ba834bb50224eaca1c29480f4914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/QuickSlotsUI.cs using Guid(c538ba834bb50224eaca1c29480f4914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91384bd04ff8407d0011d66df5a8f2a3') in 0.003416 seconds
-  Import took 0.006241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.144041 seconds.
-  path: Assets/PlayerControls.cs
-  artifactKey: Guid(ad1c55c09f98d7e4490dd86ea5121eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerControls.cs using Guid(ad1c55c09f98d7e4490dd86ea5121eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b5bdcf696b510ddab2c09ff5d74d24') in 0.002515 seconds
-  Import took 0.005060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001442 seconds.
-  path: Assets/PlayerControls.cs
-  artifactKey: Guid(ad1c55c09f98d7e4490dd86ea5121eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerControls.cs using Guid(ad1c55c09f98d7e4490dd86ea5121eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b5bdcf696b510ddab2c09ff5d74d24') in 0.002758 seconds
-  Import took 0.005521 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000853 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C957A700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C69BD020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C99B9020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAF451C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2D6E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C8026010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C25EE910 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C266DA10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9424FA0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA918050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C99C5110 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6A2D050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.843 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
-System memory in use after: 71.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1906.
-Total: 2.140200 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.716000 ms  DeleteObjects: 0.063700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001036 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C2B71190 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C69BD020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C99B9020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2EC5C10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAF87010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C25EE910 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9424FA0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA8F8040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C81D7020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6A2D050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.846 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.6 MB.
-System memory in use after: 71.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1909.
-Total: 1.885700 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.603200 ms  DeleteObjects: 0.055300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.277228 seconds.
-  path: Assets/Scripts/WeaponSlotManager.cs
-  artifactKey: Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponSlotManager.cs using Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d45eb7f079d08feb580b84037187dd7') in 0.011922 seconds
-  Import took 0.014580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020634 seconds.
-  path: Assets/Scripts/WeaponSlotManager.cs
-  artifactKey: Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponSlotManager.cs using Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d45eb7f079d08feb580b84037187dd7') in 0.002862 seconds
-  Import took 0.005384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.131232 seconds.
-  path: Assets/Scripts/WeaponSlotManager.cs
-  artifactKey: Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponSlotManager.cs using Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b296d6e91ec8e17efdf60416d8318') in 0.004049 seconds
-  Import took 0.007148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.102189 seconds.
-  path: Assets/Scripts/WeaponSlotManager.cs
-  artifactKey: Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WeaponSlotManager.cs using Guid(4bfab6fa72ddd9847bd3657f664d323a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45919250a4dfef62a5ee6e8a61d3f7c') in 0.002815 seconds
-  Import took 0.005503 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000993 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C9A8B030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C69BD020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9420F90 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA6C0100 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6E49010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9B90E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9420F90 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7E2F4F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA71C010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB1F0090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C25C3ED0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C748A060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.6 MB.
-System memory in use after: 71.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1912.
-Total: 1.910500 ms (FindLiveObjects: 0.183100 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.633700 ms  DeleteObjects: 0.059300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.761465 seconds.
-  path: Assets/Art/LowPolyMan.fbx
-  artifactKey: Guid(7deab2f152f2a35479ee0e473db18b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/LowPolyMan.fbx using Guid(7deab2f152f2a35479ee0e473db18b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4194c16b40003333a013894bd277fcf2') in 0.243510 seconds
-  Import took 0.246816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.701224 seconds.
-  path: Assets/Art/UI
-  artifactKey: Guid(8c45885209d7b094fb30e235ba192bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI using Guid(8c45885209d7b094fb30e235ba192bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa8488ba5360ea8e8436754b89d07a') in 0.008871 seconds
-  Import took 0.012392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Art/UI
-  artifactKey: Guid(8c45885209d7b094fb30e235ba192bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI using Guid(8c45885209d7b094fb30e235ba192bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfa8488ba5360ea8e8436754b89d07a') in 0.003008 seconds
-  Import took 0.006101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.449901 seconds.
-  path: Assets/Art/UI/Icons
-  artifactKey: Guid(b1b0aeb555af70f45af1af43d1d83dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Icons using Guid(b1b0aeb555af70f45af1af43d1d83dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb1914679fbc2caef359874612173c5') in 0.016269 seconds
-  Import took 0.020368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.966881 seconds.
+  Time since last request: 64.970827 seconds.
   path: Assets/Items/Nigger Sword.asset
   artifactKey: Guid(2d9ed2d01e823244e99846fb2197615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Items/Nigger Sword.asset using Guid(2d9ed2d01e823244e99846fb2197615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b3a0e06d9bc91cfdb5c44d3fe6646d') in 0.010130 seconds
-  Import took 0.012699 seconds .
+Start importing Assets/Items/Nigger Sword.asset using Guid(2d9ed2d01e823244e99846fb2197615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5fbd68c60559d059ea9aecdfcc95e5') in 0.044493 seconds
+  Import took 0.047414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Items/Unarmed.asset
-  artifactKey: Guid(ecd6d62f40a599a4c831d07e8e63a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Items/Unarmed.asset using Guid(ecd6d62f40a599a4c831d07e8e63a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cddd22c10587a0d7e480ca9b900a6fb') in 0.007796 seconds
-  Import took 0.010158 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
+  Time since last request: 0.000263 seconds.
   path: Assets/Items/Sword.asset
   artifactKey: Guid(d25075758799fc1438fa624e2e8a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Items/Sword.asset using Guid(d25075758799fc1438fa624e2e8a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5123a11dae0aed74342cdd6e7efc7a61') in 0.009309 seconds
-  Import took 0.012048 seconds .
+Start importing Assets/Items/Sword.asset using Guid(d25075758799fc1438fa624e2e8a70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53aa73951374e88ea13f376415c4a800') in 0.011891 seconds
+  Import took 0.014059 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Items/Unarmed.prefab
-  artifactKey: Guid(43a25e450af721b4bab18ba73ceefbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Items/Unarmed.prefab using Guid(43a25e450af721b4bab18ba73ceefbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573424c2aed1301ea239e7e18b4d98a4') in 0.005277 seconds
-  Import took 0.007746 seconds .
+  Time since last request: 232.720200 seconds.
+  path: Assets/Scripts/PlayerInventory.cs
+  artifactKey: Guid(246adbff5c6ef3e48a3360b4270c937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInventory.cs using Guid(246adbff5c6ef3e48a3360b4270c937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b73edcc5145e7a3474d7662b95ef038') in 0.009518 seconds
+  Import took 0.012190 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005972 seconds.
-  path: Assets/Items/Unarmed.prefab
-  artifactKey: Guid(43a25e450af721b4bab18ba73ceefbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Items/Unarmed.prefab using Guid(43a25e450af721b4bab18ba73ceefbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573424c2aed1301ea239e7e18b4d98a4') in 0.004311 seconds
-  Import took 0.007014 seconds .
+  Time since last request: 0.007861 seconds.
+  path: Assets/Scripts/PlayerInventory.cs
+  artifactKey: Guid(246adbff5c6ef3e48a3360b4270c937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerInventory.cs using Guid(246adbff5c6ef3e48a3360b4270c937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b73edcc5145e7a3474d7662b95ef038') in 0.002415 seconds
+  Import took 0.004849 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.089627 seconds.
-  path: Assets/Hovl Studio/Magic sword
-  artifactKey: Guid(f59ab40d81d2e794aac598cf212eb11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword using Guid(f59ab40d81d2e794aac598cf212eb11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bee73e9d1b973c3bcb693ca148b5c3') in 0.008040 seconds
-  Import took 0.010704 seconds .
+  Time since last request: 1.670805 seconds.
+  path: Assets/Scripts/PlayerManager.cs
+  artifactKey: Guid(8742defaeaaa71d45bdebe85861523ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerManager.cs using Guid(8742defaeaaa71d45bdebe85861523ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd501301c9d3ac90e535e9e59e8bf29aa') in 0.008099 seconds
+  Import took 0.010488 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.164383 seconds.
-  path: Assets/Hovl Studio/Magic sword/Models
-  artifactKey: Guid(72fa38aa9f676db40bfd92b3fcd9c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Models using Guid(72fa38aa9f676db40bfd92b3fcd9c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b36c1e7202440a1bb4e12dd9e649ef') in 0.007728 seconds
-  Import took 0.010323 seconds .
+  Time since last request: 1.353377 seconds.
+  path: Assets/Scripts/PlayerAttacker.cs
+  artifactKey: Guid(4e50efb2738999a46a7db47808e696a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerAttacker.cs using Guid(4e50efb2738999a46a7db47808e696a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4863ad33df71a1a042e3d925584b78') in 0.006722 seconds
+  Import took 0.009116 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.527235 seconds.
-  path: Assets/Hovl Studio/Magic sword/Prefabs
-  artifactKey: Guid(3393d23caf6a11f4a9b9552dc23cfa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Prefabs using Guid(3393d23caf6a11f4a9b9552dc23cfa49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af11b526ad4e53b16dba2465e5d8337') in 0.007536 seconds
-  Import took 0.010035 seconds .
+  Time since last request: 0.458557 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(85181a864da8e6f47a707234230ab7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(85181a864da8e6f47a707234230ab7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3deacdb99da1fa005f84ab5704a8a9') in 0.006790 seconds
+  Import took 0.009328 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.066466 seconds.
-  path: Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Ice.prefab
-  artifactKey: Guid(3329101817c67e24fb70ba97b6168054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Ice.prefab using Guid(3329101817c67e24fb70ba97b6168054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae4f903594990df8a5c52d458a3279') in 0.066369 seconds
-  Import took 0.070160 seconds .
+  Time since last request: 0.000568 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(85181a864da8e6f47a707234230ab7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(85181a864da8e6f47a707234230ab7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3deacdb99da1fa005f84ab5704a8a9') in 0.002325 seconds
+  Import took 0.004341 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron Variant.prefab
-  artifactKey: Guid(fc5e63ad9f15a794ea3a82b43e3e3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron Variant.prefab using Guid(fc5e63ad9f15a794ea3a82b43e3e3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97488d0cd706f95467cc1d0fc66dcb34') in 0.044758 seconds
-  Import took 0.047735 seconds .
+  Time since last request: 0.408795 seconds.
+  path: Assets/Scripts/InputHandler.cs
+  artifactKey: Guid(08499fa7adf20974f85dfb9e7180110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InputHandler.cs using Guid(08499fa7adf20974f85dfb9e7180110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38c52fba674f9a0f87988ae0d854a74') in 0.006752 seconds
+  Import took 0.009502 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Hovl Studio/Magic sword/Prefabs/Sword.prefab
-  artifactKey: Guid(9711e992402211648bd8e8edfa17cc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Prefabs/Sword.prefab using Guid(9711e992402211648bd8e8edfa17cc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414fd2cd348c18f6748db7fa6e8aec92') in 0.033256 seconds
-  Import took 0.036462 seconds .
+  Time since last request: 0.001121 seconds.
+  path: Assets/Scripts/InputHandler.cs
+  artifactKey: Guid(08499fa7adf20974f85dfb9e7180110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/InputHandler.cs using Guid(08499fa7adf20974f85dfb9e7180110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38c52fba674f9a0f87988ae0d854a74') in 0.002705 seconds
+  Import took 0.004858 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron.prefab
-  artifactKey: Guid(8fc40ebf5a41b30428929f5ba3697759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron.prefab using Guid(8fc40ebf5a41b30428929f5ba3697759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47232e2e98a881b1b0c51b2ecb7501a8') in 0.030790 seconds
-  Import took 0.033939 seconds .
+  Time since last request: 0.463931 seconds.
+  path: Assets/Scripts/HealthBar.cs
+  artifactKey: Guid(0239cfcf2d8b391458bea530e1742cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthBar.cs using Guid(0239cfcf2d8b391458bea530e1742cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38919e74089f648962df5fe8693132f') in 0.006159 seconds
+  Import took 0.008487 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron 1.prefab
-  artifactKey: Guid(7f2fc22d6a71cdc4886f5f9c8c1aa0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Prefabs/MagicSword_Iron 1.prefab using Guid(7f2fc22d6a71cdc4886f5f9c8c1aa0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b7b6f6976a460a66c9be9dae066aab') in 0.028897 seconds
-  Import took 0.031745 seconds .
+  Time since last request: 0.011262 seconds.
+  path: Assets/Scripts/HealthBar.cs
+  artifactKey: Guid(0239cfcf2d8b391458bea530e1742cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthBar.cs using Guid(0239cfcf2d8b391458bea530e1742cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38919e74089f648962df5fe8693132f') in 0.002427 seconds
+  Import took 0.004661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446427 seconds.
+  path: Assets/Scripts/EnemyStats.cs
+  artifactKey: Guid(55fee89671620b842a3d169ea3c1b0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyStats.cs using Guid(55fee89671620b842a3d169ea3c1b0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04ca51551d315e7940c3fa5fc8d153b') in 0.007015 seconds
+  Import took 0.009324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/Scripts/EnemyStats.cs
+  artifactKey: Guid(55fee89671620b842a3d169ea3c1b0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyStats.cs using Guid(55fee89671620b842a3d169ea3c1b0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04ca51551d315e7940c3fa5fc8d153b') in 0.002394 seconds
+  Import took 0.004431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020609 seconds.
+  path: Assets/Scripts/PlayerStats.cs
+  artifactKey: Guid(3c4d20c9139e7ab4285d2d01d059542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStats.cs using Guid(3c4d20c9139e7ab4285d2d01d059542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0ee4d866b8f8774923681acb13069d') in 0.007630 seconds
+  Import took 0.010272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 380.121766 seconds.
+  path: Assets/Scripts/PlayerStats.cs
+  artifactKey: Guid(3c4d20c9139e7ab4285d2d01d059542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerStats.cs using Guid(3c4d20c9139e7ab4285d2d01d059542d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bbd66b8566a6cbe40ad767ec1791c5') in 0.002443 seconds
+  Import took 0.004741 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001052 seconds.
+Registered in 0.000781 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C9305020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001ECF8E92220 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAE95150 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ECF1829010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF8F508D0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7B3A060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF9002430 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB1F0090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ECF1D92F00 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF8C7C2D0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF6154C50 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA7D030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF1C39AB0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ECF8BF9A10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C958D1F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF8DDC1F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB38E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ECF1CD95A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B6E030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF6143020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADA5080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF67E6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  0.840 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.4 MB.
-System memory in use after: 85.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1950.
-Total: 2.413300 ms (FindLiveObjects: 0.222200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 2.085000 ms  DeleteObjects: 0.069000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 189.636854 seconds.
-  path: Assets/Art/UI/Icons/Sword 1.jpg
-  artifactKey: Guid(e6caee3a74df48b41a5d51991475ffa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Icons/Sword 1.jpg using Guid(e6caee3a74df48b41a5d51991475ffa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e78d0d803f811381e6a27f387597c84') in 0.056336 seconds
-  Import took 0.058897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Art/UI/Icons/Sword 2.jpg
-  artifactKey: Guid(c15521e8dd834fb47b386f5e0a525655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Icons/Sword 2.jpg using Guid(c15521e8dd834fb47b386f5e0a525655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9525033657d6f2c093ff9bcbd3a786a7') in 0.012091 seconds
-  Import took 0.014395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.869648 seconds.
-  path: Assets/Art/UI/Icons/Sword 1.jpg
-  artifactKey: Guid(e6caee3a74df48b41a5d51991475ffa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Icons/Sword 1.jpg using Guid(e6caee3a74df48b41a5d51991475ffa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5ec157db934b73dbee70ad4dd20477') in 0.055434 seconds
-  Import took 0.058234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Art/UI/Icons/Sword 2.jpg
-  artifactKey: Guid(c15521e8dd834fb47b386f5e0a525655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Icons/Sword 2.jpg using Guid(c15521e8dd834fb47b386f5e0a525655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c5117fa2b8e8c60cc5da45a251792d') in 0.042816 seconds
-  Import took 0.045141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.375024 seconds.
-  path: Assets/Hovl Studio/Magic sword/Materials/MagicSword_Ice.mat
-  artifactKey: Guid(5b0be96218e756142a2e34319dbed986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Materials/MagicSword_Ice.mat using Guid(5b0be96218e756142a2e34319dbed986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6204cb9cb514a3c07d9c2a970eaad3bd') in 0.047355 seconds
-  Import took 0.050441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Hovl Studio/Magic sword/Materials/MagicSword_Iron.mat
-  artifactKey: Guid(644baa591125bdb47b986bee039d24ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Materials/MagicSword_Iron.mat using Guid(644baa591125bdb47b986bee039d24ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05c3b99633280bb5314b7b1ed7b4ccc') in 0.023904 seconds
-  Import took 0.027005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002605 seconds.
-  path: Assets/Hovl Studio/Magic sword/Materials/MagicSword_Iron.mat
-  artifactKey: Guid(644baa591125bdb47b986bee039d24ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Materials/MagicSword_Iron.mat using Guid(644baa591125bdb47b986bee039d24ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05c3b99633280bb5314b7b1ed7b4ccc') in 0.027082 seconds
-  Import took 0.030008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.554717 seconds.
-  path: Assets/Hovl Studio/Magic sword/Textures/MagicSword_Albedo.png
-  artifactKey: Guid(430ca6a749bf93b43bcb741ae6191db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Textures/MagicSword_Albedo.png using Guid(430ca6a749bf93b43bcb741ae6191db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2606e4c70532f576ea1c6c2c27f7e70a') in 0.015188 seconds
-  Import took 0.017892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Hovl Studio/Magic sword/Textures/MagicSword_MetallicSmoothness.png
-  artifactKey: Guid(9761c4a4302f9324d94fbcc3277e20b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Textures/MagicSword_MetallicSmoothness.png using Guid(9761c4a4302f9324d94fbcc3277e20b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3e308719ad009b52bb840aa24455d9') in 0.013024 seconds
-  Import took 0.015567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Hovl Studio/Magic sword/Textures/MagicSword_AO.png
-  artifactKey: Guid(d602f691892bdd74eb45b2a17006ac0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Textures/MagicSword_AO.png using Guid(d602f691892bdd74eb45b2a17006ac0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20024e8ccfda8a14041cf30eb47cdef') in 0.016615 seconds
-  Import took 0.019178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Hovl Studio/Magic sword/Textures/MagicSword_Normal.png
-  artifactKey: Guid(4684953ed14054a439da24d569fd4b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Textures/MagicSword_Normal.png using Guid(4684953ed14054a439da24d569fd4b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f947a4e5831454ecc188a7b24e40a2d9') in 0.017682 seconds
-  Import took 0.019955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Hovl Studio/Magic sword/Textures/MagicSword_Emission.png
-  artifactKey: Guid(6568b2571d2f8604081092ed0372f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Magic sword/Textures/MagicSword_Emission.png using Guid(6568b2571d2f8604081092ed0372f455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b76f2ddcda20027568761fd02693d0') in 0.012449 seconds
-  Import took 0.014750 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000825 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C957A700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAE95150 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9268E20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB1F0090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C97CA540 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA74D7F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6046040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9339000 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C936D230 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB520010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA7D84C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB02D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1962.
-Total: 1.871400 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.585500 ms  DeleteObjects: 0.056000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000931 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C6B8C060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAE95150 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB03F010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB654040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB5B4010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9B90E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6046040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2AAA020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB654040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C95B0700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
+System memory in use before: 68.2 MB.
+System memory in use after: 68.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1965.
-Total: 2.017200 ms (FindLiveObjects: 0.191500 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.725700 ms  DeleteObjects: 0.064800 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 3.156300 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.056000 ms MarkObjects: 2.784600 ms  DeleteObjects: 0.076800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000964 seconds.
+Registered in 0.000773 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C91D70B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001ECF7843030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C666C010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ECF6382040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF6EEE020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF8E543A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB1F0090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ECF917BC10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C666C010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF627C030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF8DF4320 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF1B46B60 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ECF85000A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CACDB0A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF82FA020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB88F2C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ED19C7E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA363030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF6143020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C8F66010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF67E6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.808 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
+System memory in use before: 68.2 MB.
+System memory in use after: 68.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1968.
-Total: 2.840600 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.460300 ms  DeleteObjects: 0.081100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000947 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C6B8C060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C666C010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAE55110 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB1F0090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB5B4010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAAC91E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6046040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA49B840 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB94F3B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C95B0700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7C36020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1971.
-Total: 2.651400 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.034000 ms MarkObjects: 2.325500 ms  DeleteObjects: 0.064900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001084 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C7C4E050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9D9120 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C69BD020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB1F0090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB5B4010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADA5080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6046040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C69EF040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA49B840 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB9E1010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C95B0700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C8F66010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.875 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1974.
-Total: 2.002000 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.683300 ms  DeleteObjects: 0.064800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001012 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C6B8C060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9D9120 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA96C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2EC5C10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7872710 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA96C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA49B840 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBBA11E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C904E060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1977.
-Total: 2.089200 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.790100 ms  DeleteObjects: 0.063400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000847 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C6B8C060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9D9120 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9250CB0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2EC5C10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA1B010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBC85010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA96C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA49B840 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBBA11E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C95B0700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.791 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1980.
-Total: 2.066500 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.762200 ms  DeleteObjects: 0.060900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1884.
+Total: 2.562100 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.254500 ms  DeleteObjects: 0.068000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 994.666048 seconds.
-  path: Assets/Art/UI/Icons/nebo2.png
-  artifactKey: Guid(8001e869b50316a44a872eaf372c972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Icons/nebo2.png using Guid(8001e869b50316a44a872eaf372c972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbf14b55c00f5ff2b5b7cbe6098b121') in 0.037599 seconds
-  Import took 0.040183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.210686 seconds.
-  path: Assets/Art/UI/Icons/nebo2.png
-  artifactKey: Guid(8001e869b50316a44a872eaf372c972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Icons/nebo2.png using Guid(8001e869b50316a44a872eaf372c972a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c56f62eeb4df184b389f9421875a8a') in 0.032188 seconds
-  Import took 0.034695 seconds .
+  Time since last request: 947.308493 seconds.
+  path: Assets/Data/PlayerUI.prefab
+  artifactKey: Guid(a14c55ccee5ef254e8fe7acde4a34ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/PlayerUI.prefab using Guid(a14c55ccee5ef254e8fe7acde4a34ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3191604e2d707ec2293153d18e9d70') in 0.049720 seconds
+  Import took 0.052366 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000963 seconds.
+Registered in 0.000794 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C91D70B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001EB2939B610 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9D9120 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ECF8A3C030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF8DDC1F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA700130 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF8E543A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C26E2650 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ED1A3E38F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF8DBB080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF8072010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA96C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF20B3070 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ECF6654010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C7D7B1F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF7D25180 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBBA11E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ED1A01A010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA363030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF8DCDFE0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF7D3B380 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
+- Completed reload, in  0.827 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 1.930600 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.631500 ms  DeleteObjects: 0.053100 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 3.179700 ms (FindLiveObjects: 0.290300 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.756800 ms  DeleteObjects: 0.074100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000987 seconds.
+Registered in 0.000768 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C91D70B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001ECF0F4C220 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB7FF290 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ECF8A3C030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF94A8030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA700130 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF2215FD0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C26E2650 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ECF82B8030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF6969010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADA5080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF6152590 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA96C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF628AF90 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ECF6DA7020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C29D0030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF9154020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBBA11E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ED1A488010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C904E060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF1EC1E20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1989.
-Total: 1.942900 ms (FindLiveObjects: 0.209600 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.639600 ms  DeleteObjects: 0.056300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001013 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269CA777030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB7FF290 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA700130 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2EC5C10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADA5080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA96C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9303010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBBA11E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA363030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.861 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1992.
-Total: 2.447300 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.049300 ms MarkObjects: 2.074800 ms  DeleteObjects: 0.065900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000991 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000269C601E040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA9D9120 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C91CF0A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBFF54B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C8143030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB7FF290 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA723170 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C958D1F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBB911D0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB0A7090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF7D3B380 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
+- Completed reload, in  0.841 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.5 MB.
-System memory in use after: 85.6 MB.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 2.796700 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.033700 ms MarkObjects: 2.502900 ms  DeleteObjects: 0.068600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1891.
+Total: 1.993900 ms (FindLiveObjects: 0.180500 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.717200 ms  DeleteObjects: 0.059100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001025 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EB2939B610 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8A3C030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8E16340 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8DBB080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A770170 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF6969010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF7C740B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8DBB080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8BF9A10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A09E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A7C11D0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001EB2939DC50 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8C5B230 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 2.717200 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.310000 ms  DeleteObjects: 0.075500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000953 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001EB2939B610 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8874CA0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8096160 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF67F8010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF7B8E010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF60D1020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF7C740B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF67F8010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF1D6D060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A8EF1A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A8EF1A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF1EC1E20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8072010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 2.318100 ms (FindLiveObjects: 0.193600 ms CreateObjectMapping: 0.044900 ms MarkObjects: 2.018100 ms  DeleteObjects: 0.060100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.000857 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269CA7C3020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001ECF8E92220 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADC50C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ED1A28D0F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF628AF90 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C91CF0A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF7DB0D20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CC037010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ED1A9F2C30 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C8143030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF808E040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C693F020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF6148E10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA723170 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF7DB0D20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ED19C5B050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C958D1F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF94A8030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBB911D0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ED1AB64020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB0A7090 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF937A030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAA6D020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF82C8050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
+- Completed reload, in  0.832 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.6 MB.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1998.
-Total: 2.040500 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.739400 ms  DeleteObjects: 0.055700 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 2.131800 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.782500 ms  DeleteObjects: 0.056700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000969 seconds.
+Registered in 0.000916 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C957A700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001ECF1B50020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADC50C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ED1A620040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF628AF90 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAF87010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF2215FD0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CF730080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ED1A9F2C30 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C6BF6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ECF808E040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB7FF290 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ECF6148E10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CAF87010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ED19DDA010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ED19C5B050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA49B840 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF7D4D010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CF730080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ED1AB64020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9315920 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF937A030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBDB5190 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF92A0010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.788 seconds
+- Completed reload, in  0.794 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.6 MB.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2001.
-Total: 1.873800 ms (FindLiveObjects: 0.215100 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.561100 ms  DeleteObjects: 0.051300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 1.887400 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.620500 ms  DeleteObjects: 0.052700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001000 seconds.
+Registered in 0.000953 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000269C957A700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001ECF69C4040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CADC50C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001ED1AC121E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C60BEE70 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001ECF69C6700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA22B0E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001ECF8F4C180 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBB911D0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001ECF62A8020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C95A86F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001ED19CD2010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CB7FF290 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001ED1A6B00C0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA22B0E0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001ECF7BC2010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C2B7C020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001ED1AF7CA10 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CA49B840 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001ECF8DC38A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CF7A2010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file data-000001ED1B2020A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269C9315920 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001ECF937A030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000269CBDB5190 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001ECF92A0010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
+- Completed reload, in  0.783 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1425 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.6 MB.
-System memory in use after: 85.7 MB.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2004.
-Total: 2.821300 ms (FindLiveObjects: 0.255800 ms CreateObjectMapping: 0.038800 ms MarkObjects: 2.459000 ms  DeleteObjects: 0.064900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.806000 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.558600 ms  DeleteObjects: 0.047900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1036.380879 seconds.
+  path: Assets/StaminaBar.cs
+  artifactKey: Guid(a59b89cf747d9004fa3baf1601007580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StaminaBar.cs using Guid(a59b89cf747d9004fa3baf1601007580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e88c8e77aa1fe9d5361a8629e717083') in 0.010602 seconds
+  Import took 0.013268 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000753 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001ECF69C4040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1ACE4040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8096050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A6D0100 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF62A8020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A22F010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF7C740B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A6D0100 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED19C5B050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8DC38A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1B2B6050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF77D7020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF63C6020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.820 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 1.924600 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.646500 ms  DeleteObjects: 0.051400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001021 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001ECF8B5A020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF6546070 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF6434510 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8F4C180 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1AAE0080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED19CD2010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED19DDA010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8F89F20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED19C5B050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8DC38A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1ADF00A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF69C6700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A6F0100 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 2.188900 ms (FindLiveObjects: 0.360000 ms CreateObjectMapping: 0.056600 ms MarkObjects: 1.713300 ms  DeleteObjects: 0.056800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000775 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001ECF8E92220 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1B192060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8DEB0F0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF82F9ED0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1AAE0080 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1B1F4010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED19DDA010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF82F9ED0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED19C5B050 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8DC38A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1ADF00A0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF69C6700 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF60F1010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 1.990100 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.717100 ms  DeleteObjects: 0.053900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001ECF69C4040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1B192060 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1A8C9020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8F89F20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1B758360 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF60D1020 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF7C740B0 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8F89F20 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF8C80190 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF7D78010 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ED1B758360 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF7F4E030 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001ECF66DA040 doesn't match image C:\Users\franc\Documents\GitHub\Crna-Dusa\Crna Dusa\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 1.829400 ms (FindLiveObjects: 0.161500 ms CreateObjectMapping: 0.033500 ms MarkObjects: 1.583200 ms  DeleteObjects: 0.049900 ms)
 

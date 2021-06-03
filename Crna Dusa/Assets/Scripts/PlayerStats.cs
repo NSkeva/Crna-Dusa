@@ -5,25 +5,33 @@ using crna;
 
 namespace crna
 {
-    public class EnemyStats : MonoBehaviour
+    public class PlayerStats : MonoBehaviour
     {
         public int healthLevel = 10;
         public int maxHealth;
         public int currentHealth;
+        public int staminaLevel = 10;
+        public int maxStamina;
+        public int currnetStamina;
 
         public HealthBar healthBar;
-
+        public StaminaBar staminaBar;
         AnimatorHandler animatorHandler;
 
         private void Awake()
         {
             animatorHandler = GetComponentInChildren<AnimatorHandler>();
+            healthBar = FindObjectOfType<HealthBar>();
+            staminaBar = FindObjectOfType<StaminaBar>();
         }
         private void Start()
         {
             maxHealth = SetMaxHealthFromHealthLevel();
             currentHealth = maxHealth;
             healthBar.SetMaxHealth(maxHealth);
+            maxStamina = SetMaxStaminaFromStaminaLevel();
+            currnetStamina = maxStamina;
+            staminaBar.SetMaxStamina(maxStamina);
         }
 
         private int SetMaxHealthFromHealthLevel()
@@ -31,7 +39,11 @@ namespace crna
             maxHealth = healthLevel * 10;
             return maxHealth;
         }
-
+        private int SetMaxStaminaFromStaminaLevel()
+        {
+            maxStamina = staminaLevel * 10;
+            return maxStamina;
+        }
         public void TakeDamage(int damage)
         {
             currentHealth -= damage;
@@ -44,6 +56,13 @@ namespace crna
                 currentHealth = 0;
                 animatorHandler.PlayTargetAnimation("Death_01", true);
             }
+        }
+
+        public void TakeStaminaDamage(int damage)
+        {
+            currnetStamina = currnetStamina - damage;
+            staminaBar.SetCurrentStamina(currnetStamina);
+
         }
     }
 }
