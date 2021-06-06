@@ -15,12 +15,16 @@ namespace crna
         public float mouseY;
 
         public bool b_input;
+        public bool a_Input;
         public bool sprintFlag;
         public bool comboFlag;
+        public bool inventoryFlag;
         public bool rollFlag;
-
+        public bool jump_Input;
+        public bool inventory_input;
         public bool rb_Input;
         public bool rt_Input;
+
         public bool b_Input;
         public bool d_Pad_Up;
         public bool d_Pad_Down;
@@ -33,7 +37,7 @@ namespace crna
         PlayerAttacker playerAttacker;
         PlayerInventory playerInventory;
         PlayerManager playerManager;
-
+        UIManager uiManager;
         Vector2 movementInput;
         Vector2 cameraInput;
 
@@ -42,6 +46,7 @@ namespace crna
             playerAttacker = GetComponent<PlayerAttacker>();
             playerInventory = GetComponent<PlayerInventory>();
             playerManager = GetComponent<PlayerManager>();
+            uiManager = FindObjectOfType<UIManager>();
         }
 
         public void OnEnable()
@@ -51,7 +56,17 @@ namespace crna
                 inputActions = new PlayerControls();
                 inputActions.PlayerMovement.Movement.performed += inputActions => movementInput = inputActions.ReadValue<Vector2>();
                 inputActions.PlayerMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
+                
+                inputActions.PlayerActions.RB.performed += i => rb_Input = true;
+                inputActions.PlayerActions.RT.performed += i => rt_Input = true;
+                inputActions.PlayerQuickSlots.DPadRight.performed += i => d_Pad_Right = true;
+                inputActions.PlayerQuickSlots.DPadLeft.performed += i => d_Pad_Left = true;
+                inputActions.PlayerActions.PickUp.performed += i => a_Input = true;
+                inputActions.PlayerActions.Jump.performed += i => jump_Input = true;
+                inputActions.PlayerActions.Inventory.performed += i => inventory_input = true;
+
             }
+            
             inputActions.Enable();
         }
 
@@ -66,6 +81,9 @@ namespace crna
             HandleRollInput(delta);
             HandleAttackInput(delta);
             HandleQuickSlotInput();
+           
+           
+            HandleInventoryInput();
         }
 
         private void MoveInput(float delta)
@@ -80,11 +98,11 @@ namespace crna
         private void HandleRollInput(float delta)
         {
             b_input = inputActions.PlayerActions.Roll.phase == UnityEngine.InputSystem.InputActionPhase.Started;
-
+            sprintFlag = b_input;
             if (b_input)
             {
                 rollInputTimer += delta;
-                sprintFlag = true;
+                
                 //rollFlag = true;
             }
             else
@@ -102,8 +120,7 @@ namespace crna
 
         private void HandleAttackInput(float delta)
         {
-            inputActions.PlayerActions.RB.performed += i => rb_Input = true;
-            inputActions.PlayerActions.RT.performed += i => rt_Input = true;
+           
 
             if (rb_Input)
             {
@@ -136,8 +153,7 @@ namespace crna
         
         private void HandleQuickSlotInput()
         {
-            inputActions.PlayerQuickSlots.DPadRight.performed += i => d_Pad_Right = true;
-            inputActions.PlayerQuickSlots.DPadLeft.performed += i => d_Pad_Left = true;
+           
             if (d_Pad_Right)
             {
                 playerInventory.ChangeRightWeapon();
@@ -146,6 +162,31 @@ namespace crna
             else if (d_Pad_Left)
             {
                 playerInventory.ChangeLeftWeapon();
+            }
+        }
+
+     
+
+     
+
+        private void HandleInventoryInput()
+        {
+           
+            if(inventory_input)
+            {
+                inventoryFlag = !inventoryFlag;
+                if(inventoryFlag)
+                {
+                    uiManager.OpenSelectWindow();
+                    uiManager.UpdateUI();
+                    uiManager.hudWindow.SetActive(false);
+                }
+                else
+                {
+                    uiManager.CloseSelectWindow();
+                    uiManager.CloseAllInvetoryWindows();
+                    uiManager.hudWindow.SetActive(true);
+                }
             }
         }
     }

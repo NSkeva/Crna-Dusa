@@ -107,6 +107,14 @@
             "id": "d100bb77-7327-487f-9de7-9c3d99630e90",
             "actions": [
                 {
+                    "name": "Inventory",
+                    "type": "Button",
+                    "id": "13b1d2e3-a390-4ac4-b930-c9e0d1441655",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Roll",
                     "type": "Button",
                     "id": "01ce71fd-101e-4d38-b977-943016e29f8a",
@@ -126,6 +134,22 @@
                     "name": "RT",
                     "type": "Button",
                     "id": "96e597c6-9d30-4867-83ed-432a0cbf10a4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PickUp",
+                    "type": "Button",
+                    "id": "15a4f04c-744e-48b0-bcf5-30ecbdd4494a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "9de989fa-3066-4c3f-88a9-12ed3f33a62b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -162,6 +186,39 @@
                     "processors": "",
                     "groups": "",
                     "action": "RT",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5cd56846-d8b2-46be-9bcb-577522010c3f",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PickUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c697dd8a-410e-4f80-81cd-b303580d1f5e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a0693da-3a24-4491-b19f-342c0e295e8e",
+                    "path": "<Keyboard>/i",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inventory",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
