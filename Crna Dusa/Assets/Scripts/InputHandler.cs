@@ -24,12 +24,15 @@ namespace crna
         public bool inventory_input;
         public bool rb_Input;
         public bool rt_Input;
+        public bool lockOnInput;
 
         public bool b_Input;
         public bool d_Pad_Up;
         public bool d_Pad_Down;
         public bool d_Pad_Left;
         public bool d_Pad_Right;
+
+        public bool lockOnFlag;
 
         public float rollInputTimer;
 
@@ -38,6 +41,7 @@ namespace crna
         PlayerInventory playerInventory;
         PlayerManager playerManager;
         UIManager uiManager;
+        CameraHandler cameraHandler;
         Vector2 movementInput;
         Vector2 cameraInput;
 
@@ -47,6 +51,7 @@ namespace crna
             playerInventory = GetComponent<PlayerInventory>();
             playerManager = GetComponent<PlayerManager>();
             uiManager = FindObjectOfType<UIManager>();
+            cameraHandler = FindObjectOfType<CameraHandler>();
         }
 
         public void OnEnable()
@@ -56,7 +61,7 @@ namespace crna
                 inputActions = new PlayerControls();
                 inputActions.PlayerMovement.Movement.performed += inputActions => movementInput = inputActions.ReadValue<Vector2>();
                 inputActions.PlayerMovement.Camera.performed += i => cameraInput = i.ReadValue<Vector2>();
-                
+
                 inputActions.PlayerActions.RB.performed += i => rb_Input = true;
                 inputActions.PlayerActions.RT.performed += i => rt_Input = true;
                 inputActions.PlayerQuickSlots.DPadRight.performed += i => d_Pad_Right = true;
@@ -64,9 +69,10 @@ namespace crna
                 inputActions.PlayerActions.PickUp.performed += i => a_Input = true;
                 inputActions.PlayerActions.Jump.performed += i => jump_Input = true;
                 inputActions.PlayerActions.Inventory.performed += i => inventory_input = true;
+                inputActions.PlayerActions.LockOn.performed += i => lockOnInput = true;
 
             }
-            
+
             inputActions.Enable();
         }
 
@@ -81,9 +87,8 @@ namespace crna
             HandleRollInput(delta);
             HandleAttackInput(delta);
             HandleQuickSlotInput();
-           
-           
             HandleInventoryInput();
+            HandleLockOnInput();
         }
 
         private void MoveInput(float delta)
@@ -102,13 +107,13 @@ namespace crna
             if (b_input)
             {
                 rollInputTimer += delta;
-                
+
                 //rollFlag = true;
             }
             else
             {
                 //rollFlag = false;
-                if(rollInputTimer>0 && rollInputTimer < 0.5f)
+                if (rollInputTimer > 0 && rollInputTimer < 0.5f)
                 {
                     sprintFlag = false;
                     rollFlag = true;
@@ -120,7 +125,7 @@ namespace crna
 
         private void HandleAttackInput(float delta)
         {
-           
+
 
             if (rb_Input)
             {
@@ -150,10 +155,10 @@ namespace crna
                 playerAttacker.HandleHeavyAttack(playerInventory.rightWeapon);
             }
         }
-        
+
         private void HandleQuickSlotInput()
         {
-           
+
             if (d_Pad_Right)
             {
                 playerInventory.ChangeRightWeapon();
@@ -165,17 +170,17 @@ namespace crna
             }
         }
 
-     
 
-     
+
+
 
         private void HandleInventoryInput()
         {
-           
-            if(inventory_input)
+
+            if (inventory_input)
             {
                 inventoryFlag = !inventoryFlag;
-                if(inventoryFlag)
+                if (inventoryFlag)
                 {
                     uiManager.OpenSelectWindow();
                     uiManager.UpdateUI();
@@ -187,6 +192,31 @@ namespace crna
                     uiManager.CloseAllInvetoryWindows();
                     uiManager.hudWindow.SetActive(true);
                 }
+            }
+        }
+
+        private void HandleLockOnInput()
+        {
+            if (lockOnInput && !lockOnFlag)
+            {
+                cameraHandler.ClearLockOnTargets();
+                lockOnInput = false;
+                lockOnFlag = true;
+
+                cameraHandler.HandleLockOn();
+
+                if (cameraHandler.nearestLockOnTarget != null)
+                {
+                    cameraHandler.currentLockOnTarget = cameraHandler.nearestLockOnTarget;
+                    lockOnFlag = true;
+                }
+            }
+            else if (lockOnInput && lockOnFlag)
+            {
+                lockOnInput = false;
+                lockOnFlag = false;
+
+                cameraHandler.ClearLockOnTargets();
             }
         }
     }

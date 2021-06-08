@@ -6,7 +6,7 @@ using SG;
 
 namespace crna
 {
-    public class PlayerManager : MonoBehaviour
+    public class PlayerManager : CharacterManager
     {
         InputHandler inputHandler;
         Animator anim;
@@ -32,14 +32,13 @@ namespace crna
 
         void Start()
         {
-            
             inputHandler = GetComponent<InputHandler>();
             anim = GetComponentInChildren<Animator>();
             playerLocomotion = GetComponent<PlayerLocomotion>();
             interactableUI = FindObjectOfType<InteractableUI>();
         }
 
-        
+
 
         // Update is called once per frame
         void Update()
@@ -47,16 +46,16 @@ namespace crna
             float delta = Time.deltaTime;
             canDoCombo = anim.GetBool("canDoCombo");
             isInteracting = anim.GetBool("isInteracting");
-            anim.SetBool("isInAir", isInAir);
+            //anim.SetBool("isInAir", isInAir);
 
-            
+
             inputHandler.TickInput(delta);
             playerLocomotion.HandleMovement(delta);
             playerLocomotion.HandleRollingAndSprinting(delta);
             playerLocomotion.HandleFalling(delta, playerLocomotion.moveDirection);
             playerLocomotion.HandleJumping();
 
-            CheckForInteractableObject();
+            //CheckForInteractableObject();
         }
 
         private void FixedUpdate()
@@ -74,7 +73,7 @@ namespace crna
         private void LateUpdate()
         {
             inputHandler.rollFlag = false;
-            
+
             inputHandler.rb_Input = false;
             inputHandler.rt_Input = false;
             inputHandler.d_Pad_Up = false;
@@ -89,27 +88,27 @@ namespace crna
                 playerLocomotion.inAirTimer = playerLocomotion.inAirTimer + Time.deltaTime;
             }
         }
-        public void CheckForInteractableObject()
+        /*public void CheckForInteractableObject()
         {
-            
+
             RaycastHit hit;
-            if(Physics.SphereCast(transform.position, 0.3f, transform.forward,out hit,1f,cameraHandler.ignoreLayers))
+            if (Physics.SphereCast(transform.position, 0.3f, transform.forward, out hit, 1f, cameraHandler.ignoreLayers))
             {
-                
-                if (hit.collider.tag == "interactable")
+
+                if (hit.collider.CompareTag("interactable"))
                 {
-                    
+
                     Interactable interactableObject = hit.collider.GetComponent<Interactable>();
 
                     if (interactableObject != null)
                     {
-                       
+
                         string interactableText = interactableObject.interactableText;
                         interactableUI.interactableText.text = interactableText;
                         interactableUIGameObject.SetActive(true);
                         if (inputHandler.a_Input)
                         {
-                            
+
                             hit.collider.GetComponent<Interactable>().Interact(this);
                         }
                     }
@@ -117,16 +116,16 @@ namespace crna
             }
             else
             {
-                if(interactableUIGameObject!=null)
+                if (interactableUIGameObject != null)
                 {
                     interactableUIGameObject.SetActive(false);
                 }
-                if(itemInteractableGameObject!=null && inputHandler.a_Input)
+                if (itemInteractableGameObject != null && inputHandler.a_Input)
                 {
                     itemInteractableGameObject.SetActive(false);
                 }
             }
-        }
+        }*/
 
     }
 
