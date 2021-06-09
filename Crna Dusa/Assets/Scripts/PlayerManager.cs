@@ -46,7 +46,7 @@ namespace crna
             float delta = Time.deltaTime;
             canDoCombo = anim.GetBool("canDoCombo");
             isInteracting = anim.GetBool("isInteracting");
-            //anim.SetBool("isInAir", isInAir);
+            anim.SetBool("isInAir", isInAir);
 
 
             inputHandler.TickInput(delta);
@@ -55,7 +55,7 @@ namespace crna
             playerLocomotion.HandleFalling(delta, playerLocomotion.moveDirection);
             playerLocomotion.HandleJumping();
 
-            //CheckForInteractableObject();
+            CheckForInteractableObject();
         }
 
         private void FixedUpdate()
@@ -88,7 +88,7 @@ namespace crna
                 playerLocomotion.inAirTimer = playerLocomotion.inAirTimer + Time.deltaTime;
             }
         }
-        /*public void CheckForInteractableObject()
+        public void CheckForInteractableObject()
         {
 
             RaycastHit hit;
@@ -104,7 +104,7 @@ namespace crna
                     {
 
                         string interactableText = interactableObject.interactableText;
-                        interactableUI.interactableText.text = interactableText;
+  
                         interactableUIGameObject.SetActive(true);
                         if (inputHandler.a_Input)
                         {
@@ -125,7 +125,7 @@ namespace crna
                     itemInteractableGameObject.SetActive(false);
                 }
             }
-        }*/
+        }
 
     }
 

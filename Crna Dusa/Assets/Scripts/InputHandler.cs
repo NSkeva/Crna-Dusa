@@ -69,7 +69,6 @@ namespace crna
                 inputActions.PlayerActions.PickUp.performed += i => a_Input = true;
                 inputActions.PlayerActions.Jump.performed += i => jump_Input = true;
                 inputActions.PlayerActions.Inventory.performed += i => inventory_input = true;
-                inputActions.PlayerActions.LockOn.performed += i => lockOnInput = true;
 
             }
 

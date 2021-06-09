@@ -60,8 +60,6 @@ namespace crna
 
         public void HandleCameraRotation(float delta, float mouseXInput, float mouseYInput)
         {
-            if (inputHandler.lockOnFlag == false && currentLockOnTarget == null)
-            {
                 lookAngle += (mouseXInput * lookSpeed) / delta;
                 pivotAngle -= (mouseYInput * pivotSpeed) / delta;
                 pivotAngle = Mathf.Clamp(pivotAngle, minimumPivot, maximumPivot);
@@ -76,26 +74,6 @@ namespace crna
 
                 targetRotation = Quaternion.Euler(rotation);
                 cameraPivotTransform.localRotation = targetRotation;
-            }
-            else
-            {
-                float velocity = 0;
-
-                Vector3 dir = currentLockOnTarget.position - transform.position;
-                dir.Normalize();
-                dir.y = 0;
-
-                Quaternion targetRotation = Quaternion.LookRotation(dir);
-                transform.rotation = targetRotation;
-
-                dir = currentLockOnTarget.position - cameraPivotTransform.position;
-                dir.Normalize();
-
-                targetRotation = Quaternion.LookRotation(dir);
-                Vector3 eulerAngle = targetRotation.eulerAngles;
-                eulerAngle.y = 0;
-                cameraPivotTransform.localEulerAngles = eulerAngle;
-            }
         }
 
         private void HandleCameraCollisions(float delta)
