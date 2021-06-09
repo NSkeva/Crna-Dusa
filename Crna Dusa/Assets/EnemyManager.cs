@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace crna
 {
-    public class EnemyManager : CharacterStats
+    public class EnemyManager : CharacterManager
     {
         EnemyLocomotionManager enemyLocomotionManager;
-        bool isPerformingAction;
+        public bool isPerformingAction;
 
         public float detectionRadius = 20;
         public float maximumDetectionAngle = 50;
@@ -19,6 +19,11 @@ namespace crna
         }
         private void Update()
         {
+
+        }
+
+        private void FixedUpdate()
+        {
             HandleCurrentAction();
         }
 
@@ -27,6 +32,10 @@ namespace crna
             if (enemyLocomotionManager.currentTarget == null)
             {
                 enemyLocomotionManager.HandleDetection();
+            }
+            else
+            {
+                enemyLocomotionManager.HandleMoveToTarget();
             }
         }
     }
