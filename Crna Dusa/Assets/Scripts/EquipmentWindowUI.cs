@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace SG
+namespace crna
 {
     public class EquipmentWindowUI : MonoBehaviour
     {

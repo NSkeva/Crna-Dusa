@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace SG { 
+namespace crna { 
 public class Item : ScriptableObject
 {
         [Header("Item information")]

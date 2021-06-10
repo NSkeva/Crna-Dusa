@@ -4,7 +4,7 @@ using UnityEngine;
 using crna;
 
 
-namespace SG
+namespace crna
 {
     public class Interactable : MonoBehaviour
     {

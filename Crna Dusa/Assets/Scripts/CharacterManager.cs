@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using crna;
-using SG;
+using crna;
 
 namespace crna
 {
