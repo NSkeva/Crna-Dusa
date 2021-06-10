@@ -16,8 +16,8 @@ namespace crna
                 CharacterStats characterStats = colliders[i].transform.GetComponent<CharacterStats>();
                 if (characterStats != null)
                 {
-                    Vector3 targetDirection = characterStats.transform.position - transform.position;
-                    float viewableAngle = Vector3.Angle(targetDirection, transform.forward);
+                    Vector3 targetDirection = characterStats.transform.position - enemyManager.transform.position;
+                    float viewableAngle = Vector3.Angle(targetDirection, enemyManager.transform.forward);
 
                     if (viewableAngle > enemyManager.minimumDetectionAngle && viewableAngle < enemyManager.maximumDetectionAngle)
                     {
@@ -25,7 +25,7 @@ namespace crna
                     }
                 }
             }
-            if (enemyManager.currentState != null)
+            if (enemyManager.currentTarget != null)
             {
                 return pursueTargetState;
             }
