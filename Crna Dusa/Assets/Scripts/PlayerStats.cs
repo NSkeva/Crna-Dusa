@@ -21,10 +21,8 @@ namespace crna
         {
             maxHealth = SetMaxHealthFromHealthLevel();
             currentHealth = maxHealth;
-            healthBar.SetMaxHealth(maxHealth);
             maxStamina = SetMaxStaminaFromStaminaLevel();
             currnetStamina = maxStamina;
-            staminaBar.SetMaxStamina(maxStamina);
         }
 
         private int SetMaxHealthFromHealthLevel()
@@ -54,7 +52,7 @@ namespace crna
         public void TakeStaminaDamage(int damage)
         {
             currnetStamina = currnetStamina - damage;
-            staminaBar.SetCurrentStamina(currnetStamina);
+            //staminaBar.SetCurrentStamina(currnetStamina);
 
         }
     }

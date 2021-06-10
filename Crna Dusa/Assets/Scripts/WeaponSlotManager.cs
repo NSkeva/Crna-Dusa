@@ -57,7 +57,7 @@ namespace SG
             {
                 rightHandSlot.LoadWeaponModel(weaponItem);
                 LoadRightWeaponDamageCollider();
-                quickSlotsUI.UpdateWeaponQuickSlotsUI(false, weaponItem);
+                //quickSlotsUI.UpdateWeaponQuickSlotsUI(false, weaponItem);
                 if (weaponItem != null)
                 {
                     animator.CrossFade(weaponItem.right_hand_idle, 0.2f);
